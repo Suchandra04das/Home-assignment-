@@ -17,9 +17,9 @@ public class PerfectNumber {
 
     public static void main(String[] args) {
         int num;//variables declare in main method
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);//taking input from user
         System.out.println("Enter any number: ");
-        num=sc.nextInt();//taking input from user
+        num=sc.nextInt();
         PerfectNumber pl=new PerfectNumber();//invoking method
         pl.calculatePerfectNo(num);
     }//end main method
