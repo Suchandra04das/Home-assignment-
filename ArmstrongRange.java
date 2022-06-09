@@ -13,7 +13,7 @@ public class ArmstrongRange {
             temp=i;
             while(temp>0){
                 rem=temp%10;//hold the remainder in rem
-                sum+=Math.pow(rem,count);//calculation using
+                sum+=Math.pow(rem,count);//
                 temp=temp/10;
             }//internal loop for calculation of armstrong number
             if(i==sum)// checking the sum is equal or not with number
