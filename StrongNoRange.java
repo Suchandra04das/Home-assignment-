@@ -9,16 +9,16 @@ public class StrongNoRange {
         return f;
     }//end of fact method
             public void findStrong(int n){// method of calculation of strong number
-                int  i,temp,factorial, rem, c;//variables declare
+                int  i,temp,factorial, rem, count;//variables declare
                 for(i=1;i<=n;i++){
                temp=i;//holding the input for future use
-               c=0;//initialization of c
+               count=0;//initialization of count
                while (temp > 0) {
                     rem = temp % 10; //holding the remainder
                     factorial=fact(rem);//invoking fact method
-                    c = c + factorial;
+                    count = count + factorial;
                     temp = temp / 10;}
-                if (c == i) //checking the value of i is equal or not with c
+                if (count == i) //checking the value of i is equal or not with count
                     System.out.println(c);
         }}//end method
     public static void main(String[] args) {
