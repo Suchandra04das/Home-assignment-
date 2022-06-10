@@ -19,7 +19,7 @@ public class StrongNoRange {
                     count = count + factorial;
                     temp = temp / 10;}
                 if (count == i) //checking the value of i is equal or not with count
-                    System.out.println(c);
+                    System.out.println(count);
         }}//end method
     public static void main(String[] args) {
         int number; //variable declare in main method
